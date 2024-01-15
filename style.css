@@ -259,7 +259,7 @@ hr{
     font-size: 20px;
 }
 
-@media only screen and (max-width:750px){
+@media only screen and (min-width:750px ) and (max-width:1100px){
     .first-text{
         margin-left: 5%;
     }
@@ -272,6 +272,10 @@ hr{
         height: 250px;
         width: auto;
         margin-left: 90px;
+    }
+
+    .icone-intagram-start{
+        margin-top: -9%;
     }
 
     .showcase-cakes{
@@ -375,7 +379,7 @@ hr{
         margin-left: 60%;
        display: flex;
        flex-direction: column;
-       gap: 290px;
+
     }    
 
     .showcase-candy-imgs img{
@@ -383,12 +387,186 @@ hr{
         width: 250px;
     }
 
-    .img-candytwo{
-        margin-top: 36%;
-        margin-left: -12%;
+    .footer-itens{
+        width: 100%;
     }
 
     .footer-list ul{
         font-size: 16px;
     }
 }
+
+
+@media only screen and (max-width:450px){
+
+    .logo-icon h1{
+        font-size: 60px;
+        margin-top: 3%;
+        margin-left: 0%;
+    }
+
+    .icone-intagram-start{
+        position: absolute;
+        margin-top: -25%;
+    }
+
+    .first-text h1{
+        margin-top: -8%;
+        margin-left: 1%;
+    }
+
+    .first-img{
+        margin-top: 20%;
+        margin-left: 8%;
+    }
+
+    .first-img img{
+        height: 350px;
+        width: auto;
+    }
+
+    .first-text p{
+        margin-left: -5%;
+        margin-top: 100%;
+        font-size: 17px;
+        width: 360px;
+        font-weight: 600;
+    }
+
+    .showcase-cakes{
+        margin-top: 145%;
+    }
+
+    .title-cake-showcase{
+        margin-top: 50%;
+        margin-left: -13%;
+    }
+
+    .showcase-cakes-description{
+        margin-top: 65%;
+        margin-left: 12%;
+        font-size: 17px;
+        width: 360px;
+        font-weight: 600;
+    }
+
+    .showcase-cakes-imgs{
+        margin-left:9%;
+        display: flex;
+        flex-direction: column;
+        gap: 200px;
+        margin-top: 110%;
+    }
+
+    .showcase-cakes-imgs img{
+        height: 170px;
+        width: auto;
+    }
+
+    .cake-right{
+        margin-top: 11.5rem;
+    }
+
+    .showcase-cupcakes{
+        margin-top: 35%;
+    }
+
+    .title-cupcakes-showcase{
+        margin-left: 54%;
+    }
+
+    .showcase-cupcakes-description{
+        text-align: right;
+        margin-left: 4%;
+        font-size: 17px;
+        width: 360px;
+        font-weight: 600;
+    }
+
+    .showcase-cupcakes-imgs{
+        margin-top: 8%;
+        margin-left: 50%;
+        gap: 198px;
+    }
+
+    .title-thematiccakes-showcase{
+        margin-top: 3%;
+    }
+
+    .showcase-cupcakes-imgs img{
+        height: 170px;
+        width: auto;
+    }
+
+    .title-thematiccakes-showcase{
+        margin-top: 160%;
+        margin-left:7%;
+    }
+
+    .showcase-themticcakes-description{
+        margin-left: 7%;
+        font-size: 17px;
+        width: 360px;
+        font-weight: 600;
+        text-align: left;
+    }
+
+    .showcase-thematiccakes-imgs{
+        margin-top: 7%;
+        gap: 198px;
+        margin-left: 7%;
+    }
+
+    .showcase-thematiccakes-imgs img{
+        height: 170px;
+        width: 170px;
+    }
+
+    .second-img-thematiccakes{
+        margin-top: 11.5rem;
+    }
+
+    .showcase-candy{
+        margin-top: 14%;
+    }
+
+    .title-candy-showcase{
+        margin-left: 52%;
+    }
+
+    .showcase-candy-description{
+        text-align: right;
+        font-size: 17px;
+        width: 360px;
+        font-weight: 600;
+        margin-left: 1%;
+    }
+
+    .showcase-candy-imgs{
+        margin-top: 4%;
+        margin-left: 47%;
+        gap: 198px;
+    }
+
+    .showcase-candy-imgs img{
+        height: 170px;
+        width: 170px;
+    }
+
+    .img-candytwo{
+        margin-top: 11.5rem;
+        margin-left: -14%;
+    }
+
+    .footer-itens{
+        width: 100%;
+    }
+
+    .footer-list ul{
+        font-size: 9px;
+    }
+
+    .footer-copyright{
+        font-size: 10px;
+    }
+} 
